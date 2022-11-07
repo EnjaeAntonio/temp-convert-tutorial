@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Enjae Antonio">
+        <meta name="description" content="Intro to JavaScript">
+        <meta name="Enjae" content=" HTML, CSS, SEO, web, web development">
+        <title>JavaScript</title>   
+        <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="assets/style/style.css" media="screen"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="assets/script/index.js" defer></script>
+    </head>
+    <body class="dark-mode">
+        <header>
+            <div class="container flexbox">
+                <div class="title">
+                    <h1>Converter</h1>
+                </div>
+                    <nav>
+                        <ul>
+                            <li><a href="" target="_blank">Socials</a></li>
+                            <li><a href="" target="_blank">About me</a></li>
+                            <li><a href="" type="">Contact me</a></li>
+                        </ul>
+                    </nav>
+            </div>
+        </header>
+        <section class="temperature container">
+            <h1 class="title">Temperature Converter</h1>
+            <form>
+                    <div class="input-and-btn">
+                        <input type="text" name="one" class= "enternumber" placeholder="Enter your number">
+                        <input type="button" class= "result" value="Result">
+                    </div>
+                </form>
+                <div class="radio-btn">
+
+                    <input type="radio"
+                    id= "tempC"
+                    name="radio"
+                    >
+                    <label for="tempC">Celcius</label>
+
+                    <input type="radio"
+                    id = "tempF"
+                    name="radio"
+                    >
+                    <label for="tempF">Fahrenheit</label>
+
+                </div>  
+                <section class="output">
+                    <p></p>
+                </section>
+        </section>
+        <div class="icons">
+            <button class="themes" onclick="myFunction()">Dark mode</button>
+        </div>
+    </body>
+</html>
