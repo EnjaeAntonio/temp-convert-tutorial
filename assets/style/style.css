@@ -187,7 +187,7 @@ input[type="radio"]{
 
 
 
-.input-and-btn {
+form {
     display: flex;
     width: 30%;
 }
