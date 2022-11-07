@@ -143,10 +143,6 @@ This is just an example you can use, but feel free to take the time and style th
     margin-inline: auto;
 }
 
-.flexbox {
-    display: flex;
-}
-
 main {
     background-color: #fff;
     width: 100%;
@@ -203,11 +199,11 @@ input[type="text"] {
 
 ## Step 4: JavaScript
 
-Now the real fun begins, the JavaScript! The code is really simple and only requires a couple of if else statements! If you aren't familiar with JavaScript, the "onEvent" is a shorthand for addEventListener.
+Now the real fun begins, the JavaScript! The code is really simple and only requires a couple of if else statements!
 
 ## Explaining the script
 
-First we declare variables by using a similiar naming convention to our classes, and identifying that class. To make life easier, I declared the users input by adding ```.value``` and to make sure that our users input is in fact a number, I used ```!isNaN(userInput)```, you can also use ```isNumber(userInput)```. The easiest part of the script is grabbing whether the user clicked celcius or fahrenheit. We do that by adding .checked to the end of our variable. So if fahrenheit is checked > convert celcius to fahrenheit and if celcius is checked > convert fahrenheit to celcius. 
+First we declare variables by using a similiar naming convention to our classes, and identifying that class. To make life easier, I declared the users input by adding ```.value``` and to make sure that our users input is in fact a number, I used ```!isNaN(userInput)```, you can also use ```isNumber(userInput)```. The easiest part of the script is grabbing whether the user clicked celcius or fahrenheit. We do that by adding .checked to the end of our variable. So if fahrenheit.checked > convert celcius to fahrenheit and if celcius.checked > convert fahrenheit to celcius. 
 
 ```JavaScript
 function onEvent(event, selector, callback) {
@@ -241,6 +237,8 @@ onEvent('click', result, () => {
 
 });
 ```
-#### Your code should look like this and be up and running, thank you for reading!
+
+## End result
+Your code should look like this and be up and running, thank you for reading!
 
 ![Second Example](assets/img/TempExample2.png)
