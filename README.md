@@ -84,9 +84,6 @@ Next we will create another another section (or a div) to contain our two radio 
     <p></p>
 </section>
 ```
-Our output should look like this. If it doesn't, re-check your code and make sure you have everyhing required.
-![First Example](\assets\img\TempExample.png)
-
 #### End result:
 ```HTML   
     <body>
@@ -238,7 +235,6 @@ onEvent('click', result, () => {
 });
 ```
 
-## End result
-Your code should look like this and be up and running, thank you for reading!
+## The End!
+Remember to test your code and also try different inputs! Thank you for reading!
 
-![Second Example](assets/img/TempExample2.png)
