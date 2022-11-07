@@ -2,7 +2,7 @@
 
 Today I will be showing how to create a super simple temperature converter using only HTML, CSS, and a little bit of JavaScript. If by chance you get lost, feel free to look at the demo I have included within the README file.
 
-This is my example <a href='https://enjaeantonio.github.io/temperature-converter' >Here</a>
+This is my example <a href='https://enjaeantonio.github.io/temp-convert-tutorial/' >Here</a>
 
 ## Step 1: HTML Template
 We must start by implementing our !D0CTYPE into our HTML file. If you are on VSCode you can type and enter "!" into your .HTML file and an automated template will appear like so:
